@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:root@localhost:5432/todo_list',
+        default='postgresql://todo_list_dsl7_user:mVNqBMcwiOAg2OvlSnC9eNTrMJlclBYi@dpg-cpr0vujqf0us7387ijm0-a/todo_list_dsl7',
         conn_max_age=600
     )
 }

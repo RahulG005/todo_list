@@ -1,9 +1,8 @@
 databases:
   - name: todo_list
     plan: free
-    databaseName: todo_list
-    user: postgres
-    password: root
+    databaseName: todo_list_dsl7
+    user: todo_list_dsl7_user
 
 services:
   - type: web
