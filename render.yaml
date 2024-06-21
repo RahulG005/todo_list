@@ -3,6 +3,7 @@ databases:
     plan: free
     databaseName: todo_list
     user: postgres
+    password: root
 
 services:
   - type: web
